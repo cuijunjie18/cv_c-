@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/cjj/Desktop/RM_work/objective_track/build",
+  "command": "/usr/bin/g++  -I/home/cjj/Desktop/RM_work/objective_track/include -isystem /usr/include/opencv4 -g -o CMakeFiles/main.dir/src/main.cpp.o -c /home/cjj/Desktop/RM_work/objective_track/src/main.cpp",
+  "file": "/home/cjj/Desktop/RM_work/objective_track/src/main.cpp"
+}
+]
