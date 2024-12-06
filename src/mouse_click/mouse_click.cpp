@@ -15,7 +15,7 @@ void mouseCallback(int event, int x, int y, int flags, void* userdata) {
 
 int main()
 {
-    cv::Mat img = cv::imread("images/save2.png");
+    cv::Mat img = cv::imread("images/yellow.png");
     cv::namedWindow("Point Coordinates");
     cv::setMouseCallback("Point Coordinates",mouseCallback);
     while (true){

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjj/Desktop/RM_work/objective_track/src/save_photos
+CMAKE_SOURCE_DIR = /home/cjj/Desktop/RM_work/objective_track/src/reference
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjj/Desktop/RM_work/objective_track/src/save_photos
+CMAKE_BINARY_DIR = /home/cjj/Desktop/RM_work/objective_track/src/reference
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a.x.dir/depend.make
@@ -69,28 +69,28 @@ include CMakeFiles/a.x.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.x.dir/flags.make
 
-CMakeFiles/a.x.dir/save_photo.cpp.o: CMakeFiles/a.x.dir/flags.make
-CMakeFiles/a.x.dir/save_photo.cpp.o: save_photo.cpp
-CMakeFiles/a.x.dir/save_photo.cpp.o: CMakeFiles/a.x.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjj/Desktop/RM_work/objective_track/src/save_photos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.x.dir/save_photo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a.x.dir/save_photo.cpp.o -MF CMakeFiles/a.x.dir/save_photo.cpp.o.d -o CMakeFiles/a.x.dir/save_photo.cpp.o -c /home/cjj/Desktop/RM_work/objective_track/src/save_photos/save_photo.cpp
+CMakeFiles/a.x.dir/reference.cpp.o: CMakeFiles/a.x.dir/flags.make
+CMakeFiles/a.x.dir/reference.cpp.o: reference.cpp
+CMakeFiles/a.x.dir/reference.cpp.o: CMakeFiles/a.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjj/Desktop/RM_work/objective_track/src/reference/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.x.dir/reference.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a.x.dir/reference.cpp.o -MF CMakeFiles/a.x.dir/reference.cpp.o.d -o CMakeFiles/a.x.dir/reference.cpp.o -c /home/cjj/Desktop/RM_work/objective_track/src/reference/reference.cpp
 
-CMakeFiles/a.x.dir/save_photo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.x.dir/save_photo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjj/Desktop/RM_work/objective_track/src/save_photos/save_photo.cpp > CMakeFiles/a.x.dir/save_photo.cpp.i
+CMakeFiles/a.x.dir/reference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.x.dir/reference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjj/Desktop/RM_work/objective_track/src/reference/reference.cpp > CMakeFiles/a.x.dir/reference.cpp.i
 
-CMakeFiles/a.x.dir/save_photo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.x.dir/save_photo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjj/Desktop/RM_work/objective_track/src/save_photos/save_photo.cpp -o CMakeFiles/a.x.dir/save_photo.cpp.s
+CMakeFiles/a.x.dir/reference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.x.dir/reference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjj/Desktop/RM_work/objective_track/src/reference/reference.cpp -o CMakeFiles/a.x.dir/reference.cpp.s
 
 # Object files for target a.x
 a_x_OBJECTS = \
-"CMakeFiles/a.x.dir/save_photo.cpp.o"
+"CMakeFiles/a.x.dir/reference.cpp.o"
 
 # External object files for target a.x
 a_x_EXTERNAL_OBJECTS =
 
-/home/cjj/Desktop/RM_work/objective_track/bin/a.x: CMakeFiles/a.x.dir/save_photo.cpp.o
+/home/cjj/Desktop/RM_work/objective_track/bin/a.x: CMakeFiles/a.x.dir/reference.cpp.o
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: CMakeFiles/a.x.dir/build.make
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
@@ -147,7 +147,7 @@ a_x_EXTERNAL_OBJECTS =
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 /home/cjj/Desktop/RM_work/objective_track/bin/a.x: CMakeFiles/a.x.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cjj/Desktop/RM_work/objective_track/src/save_photos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/cjj/Desktop/RM_work/objective_track/bin/a.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cjj/Desktop/RM_work/objective_track/src/reference/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/cjj/Desktop/RM_work/objective_track/bin/a.x"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a.x.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +159,6 @@ CMakeFiles/a.x.dir/clean:
 .PHONY : CMakeFiles/a.x.dir/clean
 
 CMakeFiles/a.x.dir/depend:
-	cd /home/cjj/Desktop/RM_work/objective_track/src/save_photos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjj/Desktop/RM_work/objective_track/src/save_photos /home/cjj/Desktop/RM_work/objective_track/src/save_photos /home/cjj/Desktop/RM_work/objective_track/src/save_photos /home/cjj/Desktop/RM_work/objective_track/src/save_photos /home/cjj/Desktop/RM_work/objective_track/src/save_photos/CMakeFiles/a.x.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cjj/Desktop/RM_work/objective_track/src/reference && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjj/Desktop/RM_work/objective_track/src/reference /home/cjj/Desktop/RM_work/objective_track/src/reference /home/cjj/Desktop/RM_work/objective_track/src/reference /home/cjj/Desktop/RM_work/objective_track/src/reference /home/cjj/Desktop/RM_work/objective_track/src/reference/CMakeFiles/a.x.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/a.x.dir/depend
 
