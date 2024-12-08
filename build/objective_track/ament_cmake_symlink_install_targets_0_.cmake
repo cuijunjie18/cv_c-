@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/objective_track" "TARGETS" "objective_track" "DESTINATION" "lib/objective_track")

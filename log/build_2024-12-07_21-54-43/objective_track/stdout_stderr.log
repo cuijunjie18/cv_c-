@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target objective_track[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/objective_track.dir/src/main.cpp.o[0m
+[01m[K/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/objective_track/src/main.cpp:[m[K In member function ‘[01m[Kvoid objective_track::Track()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/objective_track/src/main.cpp:37:28:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >&[m[K’ from expression of type ‘[01m[KEigen::Vector3d [5][m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1> [5][m[K’}
+   37 |                     my_Pnp([01;31m[Kpts[m[K,img);
+      |                            [01;31m[K^~~[m[K
+In file included from [01m[K/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/objective_track/src/main.cpp:2[m[K:
+[01m[K/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/objective_track/include/objective_track/Pose_calculator.hpp:8:43:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid my_Pnp(std::vector<Eigen::Matrix<double, 3, 1> >&, cv::Mat)[m[K’
+    8 | void my_Pnp([01;36m[Kstd::vector<Eigen::Vector3d> &pts_c_solve[m[K,cv::Mat img);
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/objective_track.dir/build.make:90：CMakeFiles/objective_track.dir/src/main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/objective_track.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

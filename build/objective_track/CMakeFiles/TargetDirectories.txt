@@ -1,0 +1,10 @@
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/uninstall.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/objective_track_uninstall.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/objective_track.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/test.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/edit_cache.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/rebuild_cache.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/list_install_components.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/install.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/install/local.dir
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/objective_track/ament_cmake_environment_hooks/local_setup.zsh

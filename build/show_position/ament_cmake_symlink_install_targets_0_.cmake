@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/build/show_position/show_position" "TARGETS" "show_position" "DESTINATION" "lib/show_position")

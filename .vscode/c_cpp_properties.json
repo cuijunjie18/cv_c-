@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/my_interfaces/include/**",
+                "/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/objective_track/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/my_interfaces/include/my_interfaces"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

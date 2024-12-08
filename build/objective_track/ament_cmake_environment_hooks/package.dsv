@@ -1,0 +1,4 @@
+source;share/objective_track/local_setup.bash
+source;share/objective_track/local_setup.dsv
+source;share/objective_track/local_setup.sh
+source;share/objective_track/local_setup.zsh

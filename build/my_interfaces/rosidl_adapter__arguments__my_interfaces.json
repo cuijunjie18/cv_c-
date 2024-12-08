@@ -1,0 +1,6 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/cjj/Desktop/RM_work/opencv_project/track_and_pnp/src/my_interfaces:msg/Position.msg"
+  ]
+}
